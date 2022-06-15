@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="User Profile"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/txt_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Teléfono"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/txt_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Correo"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/txt_Gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Sexo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_BirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Fecha de nacimiento"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/txt_Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="País"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Provincia o Ciudad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="48dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Dirección"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_LogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Log Out" />
+</LinearLayout>
